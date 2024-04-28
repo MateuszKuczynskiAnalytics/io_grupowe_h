@@ -1,7 +1,5 @@
 
-# Dom $${\color{yellow}Dom Slytherin}$$	
-
-# ! Hufflepuff
+# Dom $${\color{yellow}Dom Hufflepuff}$$	
 
 
 ![logo](imgs/HP.jpg)
