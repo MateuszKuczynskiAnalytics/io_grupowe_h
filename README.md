@@ -1,5 +1,5 @@
 
-# Dom <font color="yellow" style="font-style: italic;">Hufflepuff</font>
+# Dom <span style="color:yellow">some *blue* text</span>.
 
 # ! Hufflepuff
 
