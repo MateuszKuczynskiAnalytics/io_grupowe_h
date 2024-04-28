@@ -1,5 +1,5 @@
 
-# Dom $${\color{yellow}Dom Hufflepuff}$$	
+# $${\color{yellow}Dom Hufflepuff}$$	
 
 
 ![logo](imgs/HP.jpg)
