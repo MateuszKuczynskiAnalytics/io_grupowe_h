@@ -13,7 +13,7 @@
 1. **Nazywanie gałęzi**: _\`Imię_ZadanieX\`_, gdzie X - numer zadania.
 
 2. **Przypisanie pierwszych kilku zadań**:
-- Zadanie 0 - _\`Wiktor_Zadanie0\`_,
+- Zadanie 0 - _\`Jeszcze nie wiadomo kto\`_,
 - Zadanie 1 - _\`Natalia_Zadanie1\`_,
 - Zadanie 2 - _\`Krzysztof_Zadanie2\`_,
 - Zadanie 3 - _\`Mateusz_Zadanie3\`_,
