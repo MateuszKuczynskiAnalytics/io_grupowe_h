@@ -1,5 +1,5 @@
-# Dom <span style="font-style:italic;"><span style="background: linear-gradient(45deg, yellow, orange); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Hufflepuff</span>
-</span>
+# Dom <font color="yellow" style="font-style: italic;">Hufflepuff</font>
+
 
 ![logo](imgs/HP.jpg)
 
