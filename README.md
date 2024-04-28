@@ -1,5 +1,5 @@
 
-# Dom <span style="color:yellow">some *blue* text</span>.
+# Dom $${\color{yellow}Dom Slytherin}$$	
 
 # ! Hufflepuff
 
