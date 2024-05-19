@@ -1,3 +1,5 @@
+#Zadanie 3
+
 def licz_sume(input_dict):
 
     total_knuts = sum(input_dict.get("knut", []))
