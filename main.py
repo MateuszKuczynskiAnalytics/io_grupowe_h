@@ -23,7 +23,11 @@ def licz_sume(input_dict):
 
 
 #Zadanie 4
-
+"""
+Funkcja ta oblicza koszt wysłania przesyłki za pomocą sowy
+na podstawie różnych czynników, takich jak odległość, rodzaj przesyłki
+i dodatkowe usługi.
+"""
 def wybierz_sowe_zwroc_koszt(potwierdzenie, odleglosc, typ, specjalna):
     cennik = {
         'lokalna': {'list': (0, 0, 2), 'paczka': (0, 0, 7)},
@@ -31,9 +35,17 @@ def wybierz_sowe_zwroc_koszt(potwierdzenie, odleglosc, typ, specjalna):
         'dalekobiezna': {'list': (0, 0, 20), 'paczka': (0, 2, 1)}
     }
 
+    """
+    Funkcja konwertuje te wartości na równoważną liczbę knutów, aby ułatwić
+    obliczenia kosztu przesyłki.
+    """
     def konwersja_na_knuty(galeony, sykle, knuty):
         return galeony * 493 + sykle * 29 + knuty
 
+    """
+    Konwertuje liczbę knutów na równoważne wartości
+    w galionach, syklach i knutach.
+    """
     def podsumowanie_kosztow(knuty):
         galeony = knuty // 493
         knuty %= 493
@@ -55,5 +67,6 @@ def wybierz_sowe_zwroc_koszt(potwierdzenie, odleglosc, typ, specjalna):
 
     return podsumowanie_kosztow(total_knuts)
 
-
+# Test funkcji
 print(wybierz_sowe_zwroc_koszt(True, 'lokalna', 'list', 'wyjec'))
+
