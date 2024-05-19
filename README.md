@@ -2,7 +2,7 @@
 # $${\color{yellow}Hufflepuff}$$	
 
 
-![logo](imgs/HP.jpg)
+![logo](Natalia_Zadanie1/imgs/HP.jpg)
 
 # Lista uczestników domu:
 - [Krzysztof Adamczyk](https://github.com/krzychpoznan)
@@ -19,8 +19,10 @@
 - Zadanie 1 - _\`Natalia_Zadanie1\`_,
 - Zadanie 2 - _\`Krzysztof_Zadanie2\`_,
 - Zadanie 3 - _\`Mateusz_Zadanie3\`_,
-- Zadanie 4 - _\'Wiktor_Zadanie4\'_,
-- Zadanie 5 - _\'Mateusz_Zadanie5\'_,
+- Zadanie 4 - _\`Wiktor_Zadanie4\`_,
+- Zadanie 5 - _\`Natalia_Zadanie5\`_,
+- Zadanie 6 - _\`MateuszT_Zadanie6\`_,
+- Zadanie 8 - _\`MateuszT_Zadanie8\`_,
 - Przypisanie do kolejnych zadań nastąpi wraz z czasem,
 - ~~Każdy działa na własną rękę, nie współpracujemy~~,
 - **Deadline** dla projektu - 19 maja 2024.
