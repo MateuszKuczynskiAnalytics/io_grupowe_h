@@ -6,7 +6,7 @@
 
 # Lista uczestników domu:
 - [Krzysztof Adamczyk](https://github.com/krzychpoznan)
-- [Wiktor Musiałkowski](https://github.com/WiktorM22)
+- [Wiktor Musiałowski](https://github.com/WiktorM22)
 - [Mateusz Kuczyński](https://github.com/MateuszKuczynskiAnalytics)
 - [Mateusz Trafny](https://github.com/MatitUEP)
 - [Natalia Dziwisz](https://github.com/Nalk4)
