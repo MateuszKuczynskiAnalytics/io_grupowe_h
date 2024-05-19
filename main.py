@@ -1,5 +1,7 @@
 # Zadanie 3
 
+#Funkcja konwertująca input_dict (słownik, gdzie kluczami są knuts, sykls i galeons a wartościami listy zawierające liczbę
+#danych nominałów) do najwyższych możliwych nominałów, zwrqacanych w słowniku output_dict.
 def licz_sume(input_dict):
     total_knuts = sum(input_dict.get("knut", []))
     total_sykls = sum(input_dict.get("sykl", []))
