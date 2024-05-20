@@ -1,7 +1,9 @@
-# Zadanie 2
-
 import time
 import random
+
+
+# Zadanie 2
+
 
 def wyslij_sowe(adresat, tresc_listu):
     print(f'Wyślij sowę do: {adresat}')
