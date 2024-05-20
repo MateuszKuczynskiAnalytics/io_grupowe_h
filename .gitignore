@@ -1,7 +1,0 @@
-# Ignorowanie plików pomocniczych
-*.log
-*.tmp
-
-# Ignorowanie folderów IDE
-.idea/
-.vscode/
