@@ -4,7 +4,7 @@ import csv
 import random
 import time
 from datetime import datetime
-
+# Kod przetwarza liste z pliku csv, oblicza koszt wysyłki i zapisuje rezultat w nowym csv
 
 def wyslij_sowe(adresat, tresc):
     print(f"Wysyłanie sowy do {adresat} z treścią: {tresc}")
