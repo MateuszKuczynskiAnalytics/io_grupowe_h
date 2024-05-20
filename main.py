@@ -1,5 +1,7 @@
 import time
 import random
+import csv
+from datetime import datetime
 
 
 # Zadanie 2
@@ -60,7 +62,8 @@ def wybierz_sowe_zwroc_koszt(potwierdzenie, odleglosc, typ, specjalna):
         'krajowa': {'list': (0, 0, 12), 'paczka': (0, 1, 2)},
         'dalekobiezna': {'list': (0, 0, 20), 'paczka': (0, 2, 1)}
     }
-
+    
+    koszt_g, koszt_s, koszt_k = cennik[odleglosc][typ]
     """
     Funkcja konwertuje te wartości na równoważną liczbę knutów, aby ułatwić
     obliczenia kosztu przesyłki.
@@ -122,16 +125,34 @@ def waluta_dict_na_str(waluta):
         wynik += str(waluta["knut"]) + " knut"
     return wynik.strip()
 
-# Przykładowe wywołania funkcji
-print(waluta_dict_na_str({"galeon": 0, "sykl": 0, "knut": 13}))
-print(waluta_dict_na_str({"galeon": 17, "sykl": 2, "knut": 13}))
+
+#Zadanie 7
+
+def nadaj_sowe(adresat: str, tresc: str, potw_odbioru: bool, odleglosc: str, typ: str, specjalna: str):
+    """
+    Funkcja dodaje wpis do pliku 'poczta_nadania_lista.csv' z informacjami o nadanej przesyłce.
+
+    Parametry:
+    adresat (str): Adresat wiadomości.
+    tresc (str): Treść wiadomości.
+    potw_odbioru (bool): Czy potwierdzenie odbioru jest wymagane (True/False).
+    odleglosc (str): Odległość (lokalna/krajowa/dalekobieżna).
+    typ (str): Typ przesyłki (list/paczka).
+    specjalna (str): Specjalna kategoria (nie dotyczy/wyjec/list gończy).
+
+    Funkcja nic nie zwraca!
+    """
+    koszt_przesylki_dict = wybierz_sowe_zwroc_koszt(potw_odbioru, odleglosc, typ, specjalna)
+    koszt_przesylki_str = waluta_dict_na_str(koszt_przesylki_dict)
+
+    potwierdzenie_odbioru_str = "TAK" if potw_odbioru else "NIE"
+    dane_do_zapisu = [adresat, tresc, koszt_przesylki_str, potwierdzenie_odbioru_str]
+    with open("poczta_nadania_lista.csv", mode="a", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(dane_do_zapisu)
 
 #Zadanie 8
 
-import csv
-import random
-import time
-from datetime import datetime
 # Kod przetwarza liste z pliku csv, oblicza koszt wysyłki i zapisuje rezultat w nowym csv
 
 def wyslij_sowe(adresat, tresc):
