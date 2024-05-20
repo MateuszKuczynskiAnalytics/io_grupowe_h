@@ -1,6 +1,7 @@
 import time
 import random
 import csv
+from datetime import datetime
 
 
 # Zadanie 2
@@ -152,10 +153,6 @@ def nadaj_sowe(adresat: str, tresc: str, potw_odbioru: bool, odleglosc: str, typ
 
 #Zadanie 8
 
-import csv
-import random
-import time
-from datetime import datetime
 # Kod przetwarza liste z pliku csv, oblicza koszt wysyłki i zapisuje rezultat w nowym csv
 
 def wyslij_sowe(adresat, tresc):
