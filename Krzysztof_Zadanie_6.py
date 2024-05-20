@@ -1,4 +1,9 @@
 def waluta_str_na_dict(ciag_znakow):
+#OPIS
+#Funkcja przetwarza ciąg znaków reprezentujący ceny w różnych walutach na słownik.
+#Parametry: ciag_znakow (str): Ciąg znaków zawierający ceny w formacie "wartość waluta", gdzie wartość jest liczbą całkowitą, a waluta może być galeonem (g), syklem (s) lub knutem (k).
+#Zwraca: dict: Słownik zawierający ceny w formacie {"galeon": wartość, "sykl": wartość, "knut": wartość}. Domyślnie wartości dla każdej waluty są ustawione na 0, chyba że występują w ciągu znaków.
+
     # Inicjalizacja słownika
     waluta_dict = {"galeon": 0, "sykl": 0, "knut": 0}
 
