@@ -1,3 +1,29 @@
+import time
+import random
+
+
+# Zadanie 2
+
+
+def wyslij_sowe(adresat, tresc_listu):
+    print(f'Wyślij sowę do: {adresat}')
+    print(f'Treść listu: {tresc_listu}')
+
+    time.sleep(1) #odczekanie 1 sekundy
+
+    if random.random() < 0.9:
+        print("Sowa wysłana pomyślnie")
+        return True
+    else:
+        print("Niestety sowa nie została wysłana")
+        return False
+
+adresat = "Kandydat na ucznia Szkoły Magii i Czarodziejstwa w Hogwarcie"
+tresc_listu = "Miło nam poinformować, że otworzyła się przed Tobą możliwość dołączenia do elitarnej Szkoły w Hogwarcie. Zapraszamy i życzymy samych sukcesów. "
+wynik = wyslij_sowe(adresat, tresc_listu)
+print("Wynik operacji:", wynik)
+
+
 # Zadanie 3
 
 #Funkcja konwertująca input_dict (słownik, gdzie kluczami są knuts, sykls i galeons a wartościami listy zawierające liczbę
@@ -53,8 +79,6 @@ def wybierz_sowe_zwroc_koszt(potwierdzenie, odleglosc, typ, specjalna):
         knuty %= 29
         return {"galeon": galeony, "sykl": sykle, "knut": knuty}
 
-    koszt_g, koszt_s, koszt_k = cennik[odleglosc][typ]
-
     if potwierdzenie:
         koszt_k += 7
 
@@ -101,3 +125,4 @@ def waluta_dict_na_str(waluta):
 # Przykładowe wywołania funkcji
 print(waluta_dict_na_str({"galeon": 0, "sykl": 0, "knut": 13}))
 print(waluta_dict_na_str({"galeon": 17, "sykl": 2, "knut": 13}))
+
