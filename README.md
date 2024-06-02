@@ -6,7 +6,7 @@
 
 # Lista uczestników domu:
 - [Krzysztof Adamczyk](https://github.com/krzychpoznan)
-- [Wiktor Musiałkowski](https://github.com/WiktorM22)
+- [Wiktor Musiałowski](https://github.com/WiktorM22)
 - [Mateusz Kuczyński](https://github.com/MateuszKuczynskiAnalytics)
 - [Mateusz Trafny](https://github.com/MatitUEP)
 - [Natalia Dziwisz](https://github.com/Nalk4)
@@ -22,10 +22,11 @@
 - Zadanie 4 - _\`Wiktor_Zadanie4\`_,
 - Zadanie 5 - _\`Natalia_Zadanie5\`_,
 - Zadanie 6 - _\`MateuszT_Zadanie6\`_,
+- Zadanie 7 - _\`Mateusz_Zadanie7\`_,
 - Zadanie 8 - _\`MateuszT_Zadanie8\`_,
 - Przypisanie do kolejnych zadań nastąpi wraz z czasem,
 - ~~Każdy działa na własną rękę, nie współpracujemy~~,
-- **Deadline** dla projektu - 19 maja 2024.
+- **Deadline** dla projektu - 20 maja 2024.
 
 
 
